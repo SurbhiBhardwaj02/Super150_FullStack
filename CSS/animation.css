@@ -1,0 +1,58 @@
+section{
+    height:50px;
+    width: 250px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    /* animation-name: slider;
+    animation-duration: 2s;
+    animation-iteration-count:;
+     animation-direction: alternate;/*The animation-direction CSS property sets whether an animation should play forward, backward, or alternate back and forth between playing the sequence forward and backward. */
+    /* animation-delay: 2s;
+    animation-play-state:paused; */
+   /* animation-fill-mode: backwards; */
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */ 
+}
+/* @keyframes slider {
+    25%{
+        width:400px;
+        height: 100px;
+    }
+    75%{
+        width: 350;
+        height: 200px;
+    }
+    100%{
+        width: 300px;
+        height: 250px;
+    }
+} */
+.ball{
+    margin-top: 50px;
+    width: 250px;
+    height: 280px;
+    background-color: blue;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50%;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    
+    
+}
+div{
+    width:1000px ;
+    height:800 ;
+    display: flex;
+    justify-content: center;
+    
+}
+@keyframes bounce {
+    0% {
+         transform: translate3d(0, 0, 0); /*translate 3d func is an inbuilt func which is used to reposition an element in 3d space.*/
+        }
+    100% {
+         transform: translate3d(0, 140px, 0);
+        }
+}
