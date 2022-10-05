@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+    font-size: 1.8rem;
+    display: inline;
+}
+a{
+    color: green;
+    text-decoration: none;
+
+}
+nav{
+    margin:10px;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul {
+    background-color: black;
+    width: 600px;
+    height: 40px;
+    padding: 15px;
+    
+    display:flex;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0c;
